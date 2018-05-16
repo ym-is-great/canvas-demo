@@ -6,8 +6,16 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      component: () => import('@/views/Index')
+    },
+    {
       path: '/rectangle',
       component: () => import('@/views/Rectangle')
+    },
+    {
+      path: '/text',
+      component: () => import('@/views/Text')
     }
   ]
 })
