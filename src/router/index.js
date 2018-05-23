@@ -16,6 +16,10 @@ export default new Router({
     {
       path: '/text',
       component: () => import('@/views/Text')
+    },
+    {
+      path: '/line-and-path',
+      component: () => import('@/views/LineAndPath')
     }
   ]
 })

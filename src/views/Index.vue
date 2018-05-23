@@ -15,10 +15,16 @@ export default {
     return {
       menu: [
         {
-          label: 'Rectangle', route: 'rectangle'
+          label: 'Rectangle',
+          route: 'rectangle'
         },
         {
-          label: 'Text', route: 'text'
+          label: 'Text',
+          route: 'text'
+        },
+        {
+          label: 'Line & Path',
+          route: 'line-and-path'
         }
       ]
     }
